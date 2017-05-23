@@ -351,10 +351,10 @@ public abstract class KoLmafia
 		{
 			KoLmafia.initLookAndFeel();
 		}
-		if ( !KoLmafia.acquireFileLock( "1" ) && !KoLmafia.acquireFileLock( "2" ) )
-		{
-			System.exit( -1 );
-		}
+		// if ( !KoLmafia.acquireFileLock( "1" ) && !KoLmafia.acquireFileLock( "2" ) )
+		// {
+		// 	System.exit( -1 );
+		// }
 
 		FlaggedItems.initializeLists();
 

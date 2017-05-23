@@ -211,10 +211,10 @@ public class ValhallaDecorator
 		RelayRequest.redirectedCommandURL = "/ascend.php";
 
 		boolean hasGift = false;
-		hasGift |= ValhallaDecorator.developerGift( buffer, ItemPool.RUBBER_EMO_ROE, "Veracity" );
-		hasGift |= ValhallaDecorator.developerGift( buffer, ItemPool.RUBBER_WWTNSD_BRACELET, "Veracity" );
-		hasGift |= ValhallaDecorator.developerGift( buffer, ItemPool.STUFFED_COCOABO, "holatuwol" );
-		hasGift |= ValhallaDecorator.developerGift( buffer, ItemPool.D10, "bmaher" );
+		// hasGift |= ValhallaDecorator.developerGift( buffer, ItemPool.RUBBER_EMO_ROE, "Veracity" );
+		// hasGift |= ValhallaDecorator.developerGift( buffer, ItemPool.RUBBER_WWTNSD_BRACELET, "Veracity" );
+		// hasGift |= ValhallaDecorator.developerGift( buffer, ItemPool.STUFFED_COCOABO, "holatuwol" );
+		// hasGift |= ValhallaDecorator.developerGift( buffer, ItemPool.D10, "bmaher" );
 
 		int count = InventoryManager.getCount( ItemPool.INSTANT_KARMA );
 		if ( count > 0 )
