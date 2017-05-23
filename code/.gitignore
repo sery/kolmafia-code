@@ -4,3 +4,6 @@
 /build/*
 /dist
 /dist/*
+/.svn
+/.svn/*
+/.DS_Store
